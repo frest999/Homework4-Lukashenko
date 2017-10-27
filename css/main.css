@@ -1,0 +1,200 @@
+
+body{
+	background-color: #ffffff;
+}
+
+.hidden-logo-text{
+	position: absolute;
+	left: 0;
+	top: 0;
+	text-indent: -9999px;
+}
+
+.main-header{
+	padding: 70px 0;
+}
+
+.big-content{
+	width: 1065px;
+	margin: 0 auto;
+}
+
+.small-content{
+	width: 900px;
+	margin: 0 auto;
+}
+
+.main-navigation{
+	margin-left: 500px;
+}
+
+.main-navigation li a{
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #626262;
+	font-family: 'Ubuntu Light'; 
+}
+
+.main-navigation li a:hover{
+	color: black;
+}
+
+.big-art-img{
+	padding-bottom: 100px;
+}
+
+.article-topic, .leave-comment{
+	font-family: 'Ubuntu Light';
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #b4ad9e;
+	margin-bottom: 30px;
+	font-weight: normal;
+}
+
+.article-topic:hover, .leave-comment:hover{
+	text-decoration: underline;
+}
+
+.article-title, .section-title{
+	font-family: 'Display Fair';
+	font-size: 30px;
+	font-weight: normal;
+	color: #626262;
+	margin-bottom: 40px;
+}
+
+.hover-title:hover{
+	color: #b4ad9e;
+}
+
+
+.section-title{
+	font-size: 35px;
+}
+
+.article-text{
+	font-size: 16px;
+	color: #626262;
+	line-height: 1.6;
+	font-family: 'Display Fair';
+}
+
+.articles-interval{
+	padding-bottom: 135px;
+}
+
+.big-text-margin{
+	margin-bottom: 55px;
+}
+
+.display-flex-between{
+	display: flex;
+	justify-content: space-between;
+}
+
+.articles-preview{
+	flex-wrap: wrap;
+}
+
+.small-article{
+	width: 420px;
+}
+
+.small-art-img{
+	padding-bottom: 30px;
+	height: 300px;
+	width: 100%;
+}
+
+.registration-section{
+	background-color: #f0f0f0;
+	padding: 75px 0;
+	margin-bottom: 100px;
+}
+
+.sign-up-content{
+	width: 390px;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+
+.input-style{
+	border: none;
+	font-size: 14px;
+	color: #626262;
+	background-color: #f0f0f0;
+	
+}
+
+.email-input{
+	width: 350px;
+	float: left;
+	padding: 20px 10px 10px 0;
+}
+
+.send-submit{
+	background: url(../img/send-icon.png) no-repeat;
+	width: 35px;
+	height: 35px;
+	text-indent: -9999px;
+	margin-top: 20px;
+}
+
+.load-more{
+	width: 165px;
+	height: 60px;
+	background-color: #ffffff;
+	border: 1px solid #626262;
+	font-family: 'Display Fair';
+	font-size: 20px;
+	color: #626262;
+	margin: 0 auto;
+	display: block;
+	cursor: pointer;
+}
+
+.load-more:hover{
+	background-color: #f0f0f0;
+	border: none;
+}
+
+.main-footer{
+	margin-top: 100px;
+	background-color: #f0f0f0;
+	padding: 40px 0px;
+}
+
+.main-footer-text li{
+	display: inline;
+	margin-right: 20px; 
+}
+
+.main-footer-text li a, .main-footer-text li{
+	font-size: 16px;
+	color: black;
+	font-family: 'Ubuntu Light';
+}
+
+.main-footer-text li a:hover{
+	text-decoration: underline;
+}
+
+.soc-media:before{
+	content: '';
+	width: 17px;
+	height: 17px;
+	display: block;
+}
+
+.facebook:before{
+	background: url(../img/facebook.png) no-repeat;
+}
+
+.twitter:before{
+	background: url(../img/twitter.png) no-repeat;
+}
+
+.instagram:before{
+	background: url(../img/instagram.png) no-repeat;
+}
